@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="CY{lp7p8:HN(q#ttp?8A">Player</variable><variable type="KIND_SpriteKind" id="EE_SzjCkkC`#Ah?iYK9*">Projectile</variable><variable type="KIND_SpriteKind" id="%)B.7uF@h!LJu/E?1e#q">Food</variable><variable type="KIND_SpriteKind" id="/gC{UUt373k:#S(1gO/f">Enemy</variable><variable id="`@;EVZIDKwdG`Gd8L]mc">mySprite</variable><variable id="A@m{64QUZQ-hLv2@ddOa">princess</variable><variable id="W^A1=Lf-E`%h)0vEZtD_">pizza</variable><variable id=")~iynYqDf~E^34zz=0:Z">projectile</variable></variables><block type="gameupdate" id="U%UK1dyhQl`v4vY#+-W}" x="10" y="-70"><statement name="HANDLER"><block type="controls_if" id="aGIa^~dUi5lCW[C;;X0o"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="percentchance" id="l#)wgjW!U1Bc.xZ??^Vr"><value name="percentage"><shadow type="math_number_minmax" id="1s:)0#64PEtLb:(}*wj="><mutation min="0" max="Infinity" label="Percentage" precision="0"/><field name="SLIDER">25</field></shadow></value></block></value><statement name="DO0"><block type="variables_set" id="c72{+lB~.?|S@upZwEp@"><field name="VAR" id=")~iynYqDf~E^34zz=0:Z">projectile</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreateprojectilefromside" id="b@R=7}y4pSE)Bj@mED;Q"><value name="img"><shadow type="screen_image_picker" id=";c1WyR*~x!Z_G+2P[#qe"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . 1 . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><value name="vx"><shadow type="spriteSpeedPicker" id="N!JTANVD(g+Ng{2-R4!x"><field name="speed">0</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker"><field name="speed">100</field></shadow><block type="device_random" id="G6.8j_kgb~AaAX,x;K/E"><value name="min"><shadow type="math_number" id="X?fjF)Tb4uq(pk?,Nd#Y"><field name="NUM">20</field></shadow></value><value name="limit"><shadow type="math_number" id="O?(75[*]Mol:rA[IOj/)"><field name="NUM">30</field></shadow></value></block></value></block></value><next><block type="spritesetpos" id="~`HfBBY%KWmA/t4gD~_,"><value name="sprite"><block type="variables_get" id="Kk`7`@*DN6tO.N|(k?w`"><field name="VAR" id=")~iynYqDf~E^34zz=0:Z">projectile</field></block></value><value name="x"><shadow type="positionPicker"><field name="index">0</field></shadow><block type="device_random" id="IkQ;6duuUOqK~EmotiNF"><value name="min"><shadow type="math_number" id="BIL/{aYmo.M:bNO1n~Nd"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number"><field name="NUM">30</field></shadow><block type="scenescreenwidth" id="XUPtz(sgnBI%C49AHQ[q"/></value></block></value><value name="y"><shadow type="positionPicker" id="A44?:R^@*i8oO{b?cooj"><field name="index">0</field></shadow></value></block></next></block></statement></block></statement></block></xml>
